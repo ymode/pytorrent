@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="128" cy="128" r="120" fill="#2c3e50" stroke="#34495e" stroke-width="8"/>
+  
+  <!-- Torrent symbol - stylized arrows in circle -->
+  <g transform="translate(128,128)">
+    <!-- Download arrow -->
+    <path d="M-20,-40 L-20,-10 L-35,-10 L0,25 L35,-10 L20,-10 L20,-40 Z" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+    
+    <!-- Upload arrow -->
+    <path d="M-20,40 L-20,10 L-35,10 L0,-25 L35,10 L20,10 L20,40 Z" fill="#e74c3c" stroke="#c0392b" stroke-width="2" opacity="0.8"/>
+    
+    <!-- Central hub -->
+    <circle cx="0" cy="0" r="8" fill="#f39c12" stroke="#e67e22" stroke-width="2"/>
+    
+    <!-- Connection lines -->
+    <line x1="-60" y1="-30" x2="-25" y2="-15" stroke="#95a5a6" stroke-width="3" opacity="0.6"/>
+    <line x1="60" y1="-30" x2="25" y2="-15" stroke="#95a5a6" stroke-width="3" opacity="0.6"/>
+    <line x1="-60" y1="30" x2="-25" y2="15" stroke="#95a5a6" stroke-width="3" opacity="0.6"/>
+    <line x1="60" y1="30" x2="25" y2="15" stroke="#95a5a6" stroke-width="3" opacity="0.6"/>
+    
+    <!-- Peer nodes -->
+    <circle cx="-60" cy="-30" r="6" fill="#95a5a6"/>
+    <circle cx="60" cy="-30" r="6" fill="#95a5a6"/>
+    <circle cx="-60" cy="30" r="6" fill="#95a5a6"/>
+    <circle cx="60" cy="30" r="6" fill="#95a5a6"/>
+  </g>
+  
+  <!-- App name at bottom -->
+  <text x="128" y="230" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#ecf0f1">PyTorrent</text>
+</svg>

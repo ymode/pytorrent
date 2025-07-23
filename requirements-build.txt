@@ -1,0 +1,12 @@
+# Build requirements for PyTorrent
+pyinstaller>=5.0
+PyQt5>=5.15.0
+libtorrent>=2.0.0
+requests>=2.25.0
+bencode.py>=4.0.0
+
+# Optional: for better compression
+upx
+
+# For icon generation (optional)
+Pillow>=8.0.0

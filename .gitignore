@@ -1,0 +1,65 @@
+# PyTorrent .gitignore
+
+# Build artifacts
+build/
+dist/
+*.spec
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller
+*.manifest
+*.egg-info/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Torrent client data (don't commit user data)
+.pytorrent/
+
+# Distribution packages
+*.zip
+*.tar.gz
+*.dmg
+*.exe
+*.deb
+*.rpm
+
+# Keep the release folder but ignore large binaries in CI
+release/*.app/
+release/*.exe
+release/PyTorrent
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Python
+.pytest_cache/
+.coverage
+htmlcov/
